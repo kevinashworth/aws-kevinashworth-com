@@ -1,0 +1,21 @@
+---
+layout: archive
+author_profile: true
+permalink: /posts/
+# see https://github.com/mmistakes/minimal-mistakes/issues/278
+---
+
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.posts %}
+  {% if post.categories contains 'blog' %}
+      // we do nothing
+  {% else if %}
+    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% if year != written_year %}
+      <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+      {% capture written_year %}{{ year }}{% endcapture %}
+    {% endif %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}

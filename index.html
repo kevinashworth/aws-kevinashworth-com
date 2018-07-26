@@ -1,0 +1,21 @@
+---
+layout: single
+title: Kevin Ashworth
+excerpt: "I remind you of Tim DeKay, Peter Krause, Dick Sargeant, or Bob Crane. But beardier."
+---
+{% capture fig_img %}
+[![Kevin Ashworth](https://farm8.staticflickr.com/7448/26644932154_b04b0bb8a6_c.jpg)](https://flic.kr/p/GAwf2Y)
+{% endcapture %}
+
+{% capture fig_caption %}
+  Photo credit: [**Troy Blendell**](https://twitter.com/troyblendell)
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>{{ fig_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+</figure>
+
+<p><a href="/resume" class="btn btn--primary">Acting Resumé</a></p>
+
+<p>Latest: <a href="/acting/ncis/">top of show guest star on <b>NCIS</b></a></p>

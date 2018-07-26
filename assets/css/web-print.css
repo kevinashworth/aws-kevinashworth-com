@@ -1,0 +1,24 @@
+.noprint, #centerfoot, #head {
+	display: none;
+}
+#center {
+	margin: auto;
+}
+table.resume td, table.resume td .head {
+	padding-bottom: 0.2em;
+}
+table.resume td a, table.resume td p a {
+	color: #000;
+	text-decoration: none;
+}
+table.resume td.heading {
+	font-size: x-small;
+	letter-spacing: 0;
+}
+table.resume td {
+	page-break-inside: avoid;
+}
+
+table.resume td, table.resume td div, table.resume td p, table.resume td li, #centerfoot {
+	font-size: small;
+}

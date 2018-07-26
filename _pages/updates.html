@@ -1,0 +1,13 @@
+---
+layout: archive
+author_profile: true
+permalink: /updates/
+# see https://github.com/mmistakes/minimal-mistakes/issues/278
+---
+
+{% include base_path %}
+{% for post in site.posts %}
+  {% if post.categories contains "Updates" or post.categories contains "Acting" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}

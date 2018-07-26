@@ -1,0 +1,102 @@
+a:link { color: #900; }
+a:visited { color: #900; }
+a:hover { color: #e00; }
+a:active { color: #e00; }
+
+p, td {
+  border-bottom: 0px;
+	font-family: Georgia, serif;
+	font-size: medium;
+	text-align: left;
+}
+.small, .smaller {
+	font-size: small;
+}
+.smaller {
+	padding-left: 0.1em;
+}
+
+table.resume tr {
+	vertical-align: top;
+}
+table.resume td {
+	padding: 0px;
+	padding-right: 1em;
+	padding-bottom: 0.1em;
+}
+table.resume td.right, table.resume td.right p {
+	padding-right: 0;
+	text-align: right;
+}
+table.resume td, table.resume td div, table.resume td p, table.resume td li, #centerfoot {
+	font-family: "Helvetica Neue", "Lucida Grande", Tahoma, sans-serif;
+	margin-bottom: 1em;
+}
+table.resume td ul {
+	list-style: circle;
+	margin-top: 0;
+}
+table.resume td li {
+	margin-bottom: 0;
+}
+table.resume td.heading {
+	border-top: 1px solid #900;
+	color: #900;
+	font-size: small;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 0.5em;
+	padding-right: 0;
+	text-transform: uppercase;
+}
+table.resume td .head {
+	color: #900;
+  font-size: large;
+	font-weight: bold;
+	text-transform: none;
+  margin-bottom: 0;
+}
+table.resume td .head a {
+  text-decoration: none;
+}
+table.personaltable {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+table.personaltable td {
+	padding-bottom: 0;
+}
+table.personaltable td.right, table.personaltable td.right p {
+	text-align: right;
+}
+
+.caps, .allcaps { text-transform: uppercase; }
+.smallcaps, .sc
+{
+	font-size: smaller;
+	text-transform: uppercase;
+}
+.smallercaps
+{
+	font-size: 72%;
+	text-transform: uppercase;
+}
+.xsmall, .smallest, .xsmalltd p
+{
+	font-size: x-small;
+}
+.toodamnlong {
+	letter-spacing: -0.5px;
+}
+
+#centerfoot {
+	color: #666;
+	font-size: x-small;
+}
+
+table.resume td ul {
+  margin-top: -1em;
+}
+#container {
+  max-width: 40em;
+}

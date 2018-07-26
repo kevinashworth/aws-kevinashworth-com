@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.noprint {
+	display: none;
+}
+.printonly {
+	display: inline;
+}
+.printonlyfooter {
+	color: #666;
+	display: block;
+	font-family: "Helvetica Neue", "Lucida Grande", Tahoma, sans-serif;
+	font-size: x-small;
+	padding-bottom: 10px;
+}
+#td-left a, #td-right a, table.resume td a, table.resume td p a, table.resume td.heading {
+	color: #000;
+	text-decoration: none;
+}
+#td-left, #td-left p, #td-left td {
+	padding-left: 0;
+}
+td {
+  border: none;
+  border-bottom: 0px;
+}
+#td-left {
+	border: none;
+}
+#td-right {
+	border-left: thin solid #666;
+}
+table.resume td {
+	page-break-inside: avoid;
+}
+td {
+  border-bottom: 0px;
+}

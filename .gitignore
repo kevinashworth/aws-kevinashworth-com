@@ -1,0 +1,9 @@
+.DS_Store
+.sass-cache
+Gemfile.lock
+node_modules
+s3_website.yml
+
+# _site (as an experiment, start versioning most of this folder)
+_site/assets
+_site/icons
