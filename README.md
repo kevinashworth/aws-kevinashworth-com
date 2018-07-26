@@ -1,8 +1,3 @@
-# Note to self
+# kevinashworth.com
 
-2018-06-13
-I fixed an issue where localhost links got pushed to AWS by running this:
-
-`JEKYLL_ENV="production" bundle exec jekyll build`
-
-I'd forgotten to include the first part, and my site got borked for a while
+I build [my website](http://kevinashworth.com/) with this code. It uses [Jekyll](https://jekyllrb.com/) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) (both offer MIT Licenses), and I deploy it on S3. All my original content is copyrighted — but mostly I only care about anything that rhymes.
