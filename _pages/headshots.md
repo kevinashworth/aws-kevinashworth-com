@@ -5,12 +5,12 @@ permalink: /resume/headshots/
 gallery:
   - url: https://flic.kr/p/Hw8SMz
     image_path: https://farm8.staticflickr.com/7744/27251658995_658dcbe163_z.jpg
-    alt: "IMG_1747"
-    title: "IMG_1747"
+    alt: "1747"
+    title: "Kevin Ashworth 1747"
   - url: https://flic.kr/p/GAwmrG
     image_path: https://farm8.staticflickr.com/7533/26644953714_1517ca9407_z.jpg
-    alt: "IMG_1682"
-    title: "IMG_1682"
+    alt: "1682"
+    title: "Kevin Ashworth 1682"
   - url: https://flic.kr/p/Ht9B1G
     image_path: https://farm8.staticflickr.com/7447/27217851556_b7fd454cc8_z.jpg
     alt: "1186"
