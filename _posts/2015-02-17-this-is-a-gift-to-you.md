@@ -11,7 +11,7 @@ tags:
 - AEA
 - Theater
 ---
-![noun_74172_cc](/assets/images/noun_74172_cc.png){: height="150px" width="150px" .alignleft}If you are an existing membership company in Los Angeles, this is an amazing opportunity. How could AEA give you a bigger gift than this? Accept it -- and flourish!
+![gift box by Norbert Kucsera from the Noun Project](/assets/images/noun_74172_cc.png){: height="150px" width="150px" .alignleft}If you are an existing membership company in Los Angeles, this is an amazing opportunity. How could AEA give you a bigger gift than this? Accept it -- and flourish!
 
 *   You can continue doing business as usual with your current membership -- and with actors who are members of other membership companies
 *   Those ranks are swelling like never before
