@@ -5,7 +5,7 @@
         <title>kevinashworth.com</title>
         <link></link>
         <description>Website of Kevin Ashworth, actor in Los Angeles</description>
-        <lastBuildDate>Thu, 20 Sep 2018 11:49:59 -0700</lastBuildDate>
+        <lastBuildDate>Sun, 11 Nov 2018 20:51:37 -0800</lastBuildDate>
         
         <item>
             <description>
@@ -85,6 +85,10 @@ Add a column with the row number at the end of the table. Probably breaks once y
 &lt;p&gt;To list all the globally installed node packages, but cleanly:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;npm list -g --depth=0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To delete all local branches that are already merged into the currently checked out branch:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git branch --merged | egrep -v &quot;(^\*|master|dev)&quot; | xargs git branch -d&lt;/code&gt;&lt;/p&gt;
 
             </description>
             <pubDate>Sun, 08 Apr 2018 07:26:38 -0700</pubDate>

@@ -45,6 +45,8 @@
 
 
 
+  <meta property="article:modified_time" content="2018-10-15T11:38:00-07:00">
+
 
 
   
@@ -334,7 +336,7 @@
     <meta itemprop="headline" content="Useful commands for the terminal, i.e, a page I will need to look at again and again">
     <meta itemprop="description" content="To delete all those pesky .DS_Store files and see what they were:">
     <meta itemprop="datePublished" content="April 08, 2018">
-    
+    <meta itemprop="dateModified" content="October 15, 2018">
 
     <div class="page__inner-wrap">
       
@@ -354,6 +356,10 @@
 <p>To list all the globally installed node packages, but cleanly:</p>
 
 <p><code class="highlighter-rouge">npm list -g --depth=0</code></p>
+
+<p>To delete all local branches that are already merged into the currently checked out branch:</p>
+
+<p><code class="highlighter-rouge">git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d</code></p>
 
         
       </section>
@@ -418,7 +424,7 @@
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-04-08T07:26:38-07:00">April 08, 2018</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-10-15">October 15, 2018</time></p>
         
       </footer>
 
