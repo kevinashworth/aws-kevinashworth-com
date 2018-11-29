@@ -1,9 +1,9 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.12.1 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.14.1 by Michael Rose
   Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 <html lang="en" class="no-js">
   <head>
@@ -82,8 +82,6 @@
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="kevinashworth.com Feed">
 
 <!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
@@ -107,6 +105,7 @@
     }
   </style>
 <![endif]-->
+
 
 
     <!-- start custom head snippets -->
@@ -137,39 +136,19 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="/">kevinashworth.com</a>
-        <ul class="visible-links">
-          
-            
-            <li class="masthead__menu-item">
+        <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/about/" >About</a>
-            </li>
-          
-            
-            <li class="masthead__menu-item">
+            </li><li class="masthead__menu-item">
               <a href="/resume/" >Acting Resumé</a>
-            </li>
-          
-            
-            <li class="masthead__menu-item">
+            </li><li class="masthead__menu-item">
               <a href="/updates/" >Acting Updates</a>
-            </li>
-          
-            
-            <li class="masthead__menu-item">
+            </li><li class="masthead__menu-item">
               <a href="/blog/" >Blog</a>
-            </li>
-          
-            
-            <li class="masthead__menu-item">
+            </li><li class="masthead__menu-item">
               <a href="/videos/" >Videos</a>
-            </li>
-          
-            
-            <li class="masthead__menu-item">
+            </li><li class="masthead__menu-item">
               <a href="/web/" >Web Resumé</a>
-            </li>
-          
-        </ul>
+            </li></ul>
         
         <button class="search__toggle" type="button">
           <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
@@ -186,6 +165,7 @@
     </div>
   </div>
 </div>
+
 
     <div class="initial-content">
       
@@ -317,7 +297,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -557,13 +537,13 @@ By playing Claire de Lune by Debussy.</p>
 
     
   <script src="/assets/js/main.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
 
 
 <!-- Including InstantSearch.js library and styling -->
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
 
 <script>
 // Instanciating InstantSearch.js with Algolia credentials

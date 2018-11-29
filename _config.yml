@@ -162,6 +162,7 @@ exclude:
   - LICENSE
   - log
   - node_modules
+  - NOTE-TO-SELF
   - package.json
   - Rakefile
   - README
