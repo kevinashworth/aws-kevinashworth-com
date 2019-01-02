@@ -5,7 +5,33 @@
         <title>kevinashworth.com</title>
         <link></link>
         <description>Website of Kevin Ashworth, actor in Los Angeles</description>
-        <lastBuildDate>Wed, 02 Jan 2019 12:12:37 -0800</lastBuildDate>
+        <lastBuildDate>Wed, 02 Jan 2019 13:08:40 -0800</lastBuildDate>
+        
+        <item>
+            <description>
+                &lt;p&gt;Sharing once again &lt;a href=&quot;/blog/bookmarklets-for-the-sag-aftra-health-plan-site/&quot;&gt;updated&lt;/a&gt; bookmarklets for the &lt;a href=&quot;https://my.sagaftraplans.org/health/&quot;&gt;SAG-AFTRA Health Plan Benefits Manager&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;javascript:void%20function()%7Bvar%20e=new%20Date,t=e.getDate(),a=e.getMonth()+1,n=e.getFullYear();10&amp;gt;t%26%26(t=&amp;quot;0&amp;quot;+t),10&amp;gt;a%26%26(a=&amp;quot;0&amp;quot;+a),e=a+&amp;quot;/&amp;quot;+t+&amp;quot;/&amp;quot;+n,$(&amp;quot;input&amp;quot;)%5B6%5D.value=&amp;quot;01/01/2019&amp;quot;,$(&amp;quot;input&amp;quot;)%5B7%5D.value=e;$(&amp;quot;%23earningsForm%5C%5C:findBtn&amp;quot;).click();%7D();&quot;&gt;Health 2019&lt;/a&gt;&lt;br /&gt;
+When I go the Earnings page, I tend to want to see my YTD earnings. This bookmarklet populates the date fields for January 1 to today, and activates the Find button.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;javascript:void%20function()%7B$(%22input%22)%5B6%5D.value=%2201/01/2018%22,$(%22input%22)%5B7%5D.value=%2212/31/2018%22;$(%22%23earningsForm%5C%5C:findBtn%22).click();%7D();&quot;&gt;Health 2018&lt;/a&gt;&lt;br /&gt;
+Out of morbid curiosity or for legitimate tax purposes, I often want to see last year&#39;s earnings. This bookmarklet populates the date fields for 2018 and activates the Find button.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;javascript:void%20function()%7B$(%22input%22)%5B6%5D.value=%2201/01/2018%22,$(%22input%22)%5B7%5D.value=%2212/31/2018%22;$(%22%23earningsForm%5C%5C:findBtn%22).click();%7D();&quot;&gt;Health 2017&lt;/a&gt;&lt;br /&gt;
+Same for the year before last year.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;javascript:$(%27#earningsList_rppDD%20option[value=&amp;quot;100&amp;quot;]%27).prop(%27selected%27,true);$(%27#earningsList_rppDD%20option[value=&amp;quot;100&amp;quot;]%27).change();setTimeout(function(){$(%27table[role=&amp;quot;grid&amp;quot;]%20thead%20tr%27).append(%27&amp;lt;th&amp;gt;Row&amp;lt;/th&amp;gt;%27);$(%27table[role=&amp;quot;grid&amp;quot;]%20tfoot%20tr%27).append(%27&amp;lt;td&amp;gt;Row&amp;lt;/td&amp;gt;%27);$(%27table[role=&amp;quot;grid&amp;quot;]%20tr.ui-widget-content%27).each(function(i,val){var%20row=%27&amp;lt;td&amp;gt;%27+(i+1).toString()+%27&amp;lt;/td&amp;gt;%27;$(this).append(row);});},1000);&quot;&gt;Health Rows&lt;/a&gt;&lt;br /&gt;
+This bookrmarklet adds a column with the row number at the end of the table. This functionality breaks once you change any other settings, so just refresh the web page if it gets wonky.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’re using Safari on a desktop computer, simply install these underlined bookmarklets by dragging the links to your bookmarks bar, then clicking on them — but only after you are logged in to the new site and are looking at the &lt;a href=&quot;https://my.sagaftraplans.org/health/benefit/earnings.jsf&quot;&gt;Earnings History page&lt;/a&gt;. For other browsers, you’ll probably need to manually install them by creating a new bookmark and pasting in the raw Javascript code that you access by right-clicking the bookmarklet and copying its code.&lt;/p&gt;
+
+&lt;p&gt;If things don’t work quite right after clicking a bookmarklet, just refresh the whole page and start over. I’ve used them many times. Let me know how they work for you!&lt;/p&gt;
+
+            </description>
+            <pubDate>Wed, 02 Jan 2019 00:00:00 -0800</pubDate>
+            <guid>
+                /blog/2019-bookmarklets-for-the-sag-aftra-health-plan-site/
+            </guid>
+        </item>
         
         <item>
             <description>
