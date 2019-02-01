@@ -3,6 +3,10 @@ layout: single
 title: Headshots
 permalink: /resume/headshots/
 gallery:
+  - url: https://flic.kr/p/29QhqiW
+    image_path: https://farm2.staticflickr.com/1851/43865942064_3619609b01_z_d.jpg
+    alt: "1168"
+    title: "Kevin Ashworth 1168"
   - url: https://flic.kr/p/YJFMeQ
     image_path: https://farm5.staticflickr.com/4448/37239033390_de3ffe3fe4_z.jpg
     alt: "4307"
