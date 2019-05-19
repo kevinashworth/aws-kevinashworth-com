@@ -9,6 +9,7 @@ categories:
 tags:
 - Acting
 - AEA
+- Money
 - SAG-AFTRA
 - Philosophy
 - Theater
