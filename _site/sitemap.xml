@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/updates/chapter-two-reviews/</loc>
+<loc>/acting/chapter-two-reviews/</loc>
 <lastmod>2013-01-25T06:26:38-08:00</lastmod>
 </url>
 <url>
@@ -9,7 +9,7 @@
 <lastmod>2013-05-05T12:54:57-07:00</lastmod>
 </url>
 <url>
-<loc>/updates/breath-and-imagination-reviews/</loc>
+<loc>/acting/breath-and-imagination-reviews/</loc>
 <lastmod>2013-10-07T07:26:38-07:00</lastmod>
 </url>
 <url>
@@ -17,7 +17,7 @@
 <lastmod>2014-03-15T14:43:06-07:00</lastmod>
 </url>
 <url>
-<loc>/updates/breath-and-imagination-nomination/</loc>
+<loc>/acting/breath-and-imagination-nomination/</loc>
 <lastmod>2014-09-22T07:26:38-07:00</lastmod>
 </url>
 <url>
@@ -41,7 +41,7 @@
 <lastmod>2015-01-05T23:27:05-08:00</lastmod>
 </url>
 <url>
-<loc>/updates/news-january-2015/</loc>
+<loc>/acting/news-january-2015/</loc>
 <lastmod>2015-01-21T06:26:38-08:00</lastmod>
 </url>
 <url>
@@ -77,7 +77,7 @@
 <lastmod>2015-10-04T07:26:38-07:00</lastmod>
 </url>
 <url>
-<loc>/updates/straight-white-men/</loc>
+<loc>/acting/straight-white-men/</loc>
 <lastmod>2015-12-16T06:26:38-08:00</lastmod>
 </url>
 <url>
@@ -101,8 +101,8 @@
 <lastmod>2016-10-11T10:34:44-07:00</lastmod>
 </url>
 <url>
-<loc>/money/get-yourself-a-zipping-discount/</loc>
-<lastmod>2016-10-14T13:17:13-07:00</lastmod>
+<loc>/blog/get-yourself-a-zipping-discount/</loc>
+<lastmod>2016-10-14T00:00:00-07:00</lastmod>
 </url>
 <url>
 <loc>/blog/this-is-not-normal/</loc>
@@ -253,6 +253,9 @@
 <loc>/tags/aea/</loc>
 </url>
 <url>
+<loc>/tags/sag-aftra/</loc>
+</url>
+<url>
 <loc>/tags/union/</loc>
 </url>
 <url>
@@ -262,13 +265,13 @@
 <loc>/tags/photos/</loc>
 </url>
 <url>
+<loc>/tags/money/</loc>
+</url>
+<url>
 <loc>/tags/bookmarklet/</loc>
 </url>
 <url>
 <loc>/tags/javascript/</loc>
-</url>
-<url>
-<loc>/tags/sag-aftra/</loc>
 </url>
 <url>
 <loc>/tags/healthcare/</loc>
@@ -331,16 +334,13 @@
 <loc>/tags/twitter/</loc>
 </url>
 <url>
-<loc>/categories/updates/</loc>
+<loc>/categories/acting/</loc>
 </url>
 <url>
 <loc>/categories/blog/</loc>
 </url>
 <url>
-<loc>/categories/acting/</loc>
-</url>
-<url>
-<loc>/categories/money/</loc>
+<loc>/categories/updates/</loc>
 </url>
 <url>
 <loc>/google8f0b91e4f204743f.html</loc>
