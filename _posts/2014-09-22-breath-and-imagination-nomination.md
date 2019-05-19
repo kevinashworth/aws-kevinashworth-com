@@ -6,7 +6,9 @@ title: "Breath and Imagination: Nomination"
 excerpt: 'We learned tonight that Breath and Imagination has been nominated for the 2014 Ovation Awards in the category of Best Play (Large Theatre).'
 date: 2014-09-22 14:26:38
 categories:
-- Updates
+- Acting
+tags:
+- Theater
 ---
 {% capture fig_img %}
 [![Breath and Imagination: Nomination](https://farm5.staticflickr.com/4457/37531476746_33df0d94c8_o.jpg)](https://flic.kr/p/ZbwCsE)

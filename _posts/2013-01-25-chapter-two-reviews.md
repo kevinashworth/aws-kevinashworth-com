@@ -5,7 +5,7 @@ published: true
 title: "Chapter Two: Reviews"
 date: 2013-01-25 14:26:38
 categories:
-- Updates
+- Acting
 tags:
 - Theater
 ---

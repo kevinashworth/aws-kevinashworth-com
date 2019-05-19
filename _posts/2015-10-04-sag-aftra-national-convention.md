@@ -7,7 +7,7 @@ excerpt: "Spent the weekend doing the work of my union as a delegate to the 2015
 date: 2015-10-04 14:26:38
 categories:
 - Blog
-tags: [Union]
+tags: [SAG-AFTRA, Union]
 ---
 <!-- {% capture fig_img %}
 [![Best in the business and also the weirdest](https://farm6.staticflickr.com/5644/22104280011_59738f9240_z.jpg)](https://flic.kr/s/aHskn4VSon)
