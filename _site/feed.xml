@@ -5,8 +5,8 @@
         <title>kevinashworth.com</title>
         <link></link>
         <description>Website of Kevin Ashworth, actor in Los Angeles</description>
-        <lastBuildDate>Sat, 07 Sep 2019 09:20:48 -0700</lastBuildDate>
-
+        <lastBuildDate>Mon, 23 Sep 2019 16:42:38 -0700</lastBuildDate>
+        
         <item>
             <description>
                 &lt;p&gt;I came across this tweet today. It’s pretty funny and it gave me a laugh.&lt;/p&gt;
@@ -35,7 +35,45 @@ But it also inspired me to respond to it in a serious fashion with this post abo
                 /blog/on-teaching/
             </guid>
         </item>
+        
+        <item>
+            <description>
+                &lt;p&gt;I attended a meeting wherein I got a good look at how notes that you or your representation submit on Actors Access / Breakdown Services are seen by the folks in casting.&lt;/p&gt;
 
+&lt;p&gt;Here are some examples of what casting sees, copied from actual notes. I should add that notes appear in a standard sans-serif font to the folks in casting, but I include them here using a fixed-width font to illustrate a point.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1234567890123456789012345678901234567890...
+Sounds like a great role. I have played ...
+Wow this roll is not so far off from the...
+Sounds like the role of a lifetime.
+Please see my weaponry experience video ...
+Thanks, Joseph
+Currently scruffy for other project.  Pe...
+Available for entire planned shoot perio...
+This sounds like a fascinating script! I...
+Actress has stepchildren
+Actually retired early after 25 years in...
+The Office, New Adv entures of Old Chris...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The first line is something I included to show that the cutoff is clearly 40 characters. On the last line, the submitter included an errant space after “Adv,” and you should know that the penultimate note showed “years” as “y/ears”, looking something like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Actually retired
+early after 25 y
+ears in...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To reiterate, what casting directors see, if they don’t click through to read the whole note, is the first 40 characters, and after about the 32nd character, words may wrap in an ugly way.&lt;/p&gt;
+
+&lt;p&gt;Hope this helps you submit better notes!&lt;/p&gt;
+
+            </description>
+            <pubDate>Mon, 20 May 2019 00:00:00 -0700</pubDate>
+            <guid>
+                /blog/on-notes-in-actors-access/
+            </guid>
+        </item>
+        
         <item>
             <description>
                 &lt;p&gt;Wherein people say nice things about my acting (or my limericks).&lt;/p&gt;
@@ -58,7 +96,7 @@ But it also inspired me to respond to it in a serious fashion with this post abo
                 /acting/some-twitter-highlights/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;Sharing once again &lt;a href=&quot;/blog/bookmarklets-for-the-sag-aftra-health-plan-site/&quot;&gt;updated&lt;/a&gt; bookmarklets for the &lt;a href=&quot;https://my.sagaftraplans.org/health/&quot;&gt;SAG-AFTRA Health Plan Benefits Manager&lt;/a&gt;:&lt;/p&gt;
@@ -84,7 +122,7 @@ This bookrmarklet adds a column with the row number at the end of the table. Thi
                 /blog/2019-bookmarklets-for-the-sag-aftra-health-plan-site/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;Had a fantastic shoot as a Guest Star on &lt;a href=&quot;https://abc.go.com/shows/for-the-people&quot;&gt;&lt;strong&gt;For the People&lt;/strong&gt;&lt;/a&gt;. I got to play a judge for the first time, and it was awesome. Though I mostly just sat there, it was a long shoot day with take after take of exploring, and doing&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, and having fun, and even hamming it up a little (a lot).&lt;/p&gt;
@@ -107,7 +145,7 @@ This bookrmarklet adds a column with the row number at the end of the table. Thi
                 /acting/for-the-people/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;&lt;img src=&quot;/assets/images/noun_Airplane_88_000000.png&quot; alt=&quot;noun_Airplane_88_000000 Public Domain&quot; height=&quot;150px&quot; width=&quot;150px&quot; class=&quot;alignleft&quot; /&gt;To my peers: why wouldn’t you offer more to your actors when you can?&lt;/p&gt;
@@ -146,7 +184,7 @@ P.P.S. I also want to make it clear that all of this is completely different fro
                 /blog/aim-higher/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;&lt;img src=&quot;/assets/images/Denied.png&quot; alt=&quot;Denied&quot; height=&quot;150px&quot; width=&quot;150px&quot; class=&quot;alignleft&quot; /&gt;A lot of gods are bad dudes. Zeus was a total douche, for instance. We all know that we should really just call him Zouche.&lt;/p&gt;
@@ -169,7 +207,7 @@ P.P.S. I also want to make it clear that all of this is completely different fro
                 /blog/oh-your-god/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;Sharing &lt;a href=&quot;/blog/bookmarklets-for-the-new-sag-aftra-health-plan-site/&quot;&gt;updated&lt;/a&gt; bookmarklets for the &lt;a href=&quot;https://my.sagaftraplans.org/health/&quot;&gt;SAG-AFTRA Health Plan Benefits Manager&lt;/a&gt; site:&lt;/p&gt;
@@ -188,7 +226,7 @@ Add a column with the row number at the end of the table. Probably breaks once y
                 /blog/bookmarklets-for-the-sag-aftra-health-plan-site/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;To delete all those pesky .DS_Store files and see what they were:&lt;/p&gt;
@@ -209,7 +247,7 @@ Add a column with the row number at the end of the table. Probably breaks once y
                 /blog/useful-commands/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CDMcQmGM3UA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -228,7 +266,7 @@ Add a column with the row number at the end of the table. Probably breaks once y
                 /acting/ncis/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;some amazing people, including:&lt;/p&gt;
@@ -241,7 +279,7 @@ Add a column with the row number at the end of the table. Probably breaks once y
                 /acting/updates/in-2017-i-got-to-work/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;A trove of acting books came my way recently, and from it I plucked out and read the following plays:&lt;/p&gt;
@@ -264,7 +302,7 @@ Add a column with the row number at the end of the table. Probably breaks once y
                 /blog/plays-read-this-fall/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;iframe src=&quot;https://player.vimeo.com/video/238203622&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -279,7 +317,7 @@ Add a column with the row number at the end of the table. Probably breaks once y
                 /acting/bold/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;I have in my possession a DVD of short Harvard student films. I appear in two of them. The students were all shooting from the same skeletal script, and if you watch the shorts, you’ll see very different films, but, at the end of the day, a bunch of typical student films. &lt;span class=&quot;caps&quot;&gt;EXCEPT&lt;/span&gt;. Except there’s one shot that stands out: a crazy swerving zoom in to the moment when the poison I’ve administered does her in. The setup for that shot kept us up quite late that night, like 4am. Maybe later. It was a lot of work for that one shot. But Damien had a vision, and he made it happen, like no other director on that DVD.&lt;/p&gt;
@@ -294,7 +332,7 @@ Add a column with the row number at the end of the table. Probably breaks once y
                 /blog/la-la/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;Julie Wittner, Kristin Wendell, Benji Weinstein, Gerald Webb, Natasha Ward, Ryan Tsang, Jodi Sonnenberg, Christine Shevchenko, Jing Shao, Francene Selkirk, Arlene Schuster-Goss, Bethany Rooney, Charlie Robinson, Dave Reifsnyder, Joel Novoa, Mike Nelson, Keith Nam, Kirk Moody, Gilli Messer, Jonathan Medina, Kim McCollum, Karen Maseng, Chuck Marra, Amanda Lenker Doyle, Justin Lee, Alexis Koczara, Jason Kennedy, Jeff Hardwick, Kim Hardin, Darrin Glesser, Julia Flores, Faryn Einhorn, Michael Donovan, Rachel Dill, Kim Davis-Wagner, Doug Campbell, Juel Bestrop, Troian Bellisario, Dan Bell, Eric Almquist &lt;!--more--&gt;&lt;/p&gt;
@@ -305,7 +343,7 @@ Add a column with the row number at the end of the table. Probably breaks once y
                 /acting/updates/in-2016-i-got-to-work/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;&lt;strong&gt;The &lt;del&gt;Christmas&lt;/del&gt; &lt;ins&gt;Nightmare&lt;/ins&gt; Song&lt;/strong&gt;&lt;/p&gt;
@@ -340,7 +378,7 @@ On this Christmas, (middle finger) you.&lt;/p&gt;
                 /blog/the-nightmare-song/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;A little verse because the things that rhyme are so. very. disturbing. (I&amp;#8217;ve written &lt;a href=&quot;/politics/verse/&quot;&gt;a few&lt;/a&gt; that are more humorous, as well.)&lt;/p&gt;
@@ -355,7 +393,7 @@ I wonder how can he &lt;i&gt;not see&lt;/i&gt;?&lt;/p&gt;
                 /blog/this-is-not-normal-5/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;The Orange-elect eats wheatgrass whole&lt;br /&gt;
@@ -370,7 +408,7 @@ We can all say buh-bye to our greenhouse gas goal.&lt;/p&gt;
                 /blog/this-is-not-normal-4/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;The Orange-elect needs a date, time&lt;br /&gt;
@@ -385,7 +423,7 @@ That will henceforth decree the number eight prime.&lt;/p&gt;
                 /blog/this-is-not-normal-3/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;The Orange-elect isn&amp;rsquo;t wussy.&lt;br /&gt;
@@ -400,7 +438,7 @@ By playing Claire de Lune by Debussy.&lt;/p&gt;
                 /blog/this-is-not-normal-2/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;The Orange-elect needs a bassist.&lt;br /&gt;
@@ -415,7 +453,7 @@ And they&amp;rsquo;ll form a duet just to play Liszt.&lt;/p&gt;
                 /blog/this-is-not-normal/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;&lt;small&gt;&lt;b&gt;UPDATE&lt;/b&gt;: These links no longer work. You need to call Zipcar now to set up your account at a lower rate for union members.&lt;/small&gt;&lt;/p&gt;
@@ -432,7 +470,7 @@ And they&amp;rsquo;ll form a duet just to play Liszt.&lt;/p&gt;
                 /blog/get-yourself-a-zipping-discount/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;Sharing some bookmarklets for the new &lt;a href=&quot;https://my.sagaftraplans.org/health/&quot;&gt;SAG-AFTRA Health Plan Benefits Manager&lt;/a&gt; site:&lt;/p&gt;
@@ -451,7 +489,7 @@ Try them out by dragging the links to your bookmarks bar, then clicking on them 
                 /blog/bookmarklets-for-the-new-sag-aftra-health-plan-site/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;&lt;a href=&quot;https://thenounproject.com/term/decrease-left-margin/215524&quot;&gt;&lt;img class=&quot;alignleft&quot; title=&quot;Decrease Left Margin&quot; src=&quot;/assets/images/noun_215524_cc.png&quot; alt=&quot;Decrease Left Margin by Arthur Shlain from the Noun Project&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;&lt;/a&gt;Words worth your consideration regarding theater and employment for those at the margins.&lt;/p&gt;
@@ -464,7 +502,7 @@ Try them out by dragging the links to your bookmarks bar, then clicking on them 
                 /blog/respect/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;ZOOT SUIT by Luis Valdez&lt;/p&gt;
@@ -478,77 +516,77 @@ Try them out by dragging the links to your bookmarks bar, then clicking on them 
                 /blog/plays-read-this-month/
             </guid>
         </item>
-
+        
         <item>
             <description>
-
+                
 
 &lt;figure class=&quot;full&quot;&gt;
-
-
+  
+    
       &lt;a href=
-
+        
           &quot;https://flic.kr/p/Hw8SMz&quot;
-
+        
         title=&quot;Kevin Ashworth 1747&quot;
       &gt;
         &lt;img src=
-
+          
             &quot;https://farm8.staticflickr.com/7744/27251658995_658dcbe163_z.jpg&quot;
-
+          
           alt=&quot;1747&quot;&gt;
       &lt;/a&gt;
-
-
-
+    
+  
+    
       &lt;a href=
-
+        
           &quot;https://flic.kr/p/GAwmrG&quot;
-
+        
         title=&quot;Kevin Ashworth 1682&quot;
       &gt;
         &lt;img src=
-
+          
             &quot;https://farm8.staticflickr.com/7533/26644953714_1517ca9407_z.jpg&quot;
-
+          
           alt=&quot;1682&quot;&gt;
       &lt;/a&gt;
-
-
-
+    
+  
+    
       &lt;a href=
-
+        
           &quot;https://flic.kr/p/H6NpAY&quot;
-
+        
         title=&quot;Kevin Ashworth 1118&quot;
       &gt;
         &lt;img src=
-
+          
             &quot;https://farm8.staticflickr.com/7202/26976264520_d059e04580_z.jpg&quot;
-
+          
           alt=&quot;1118&quot;&gt;
       &lt;/a&gt;
-
-
-
+    
+  
+    
       &lt;a href=
-
+        
           &quot;https://flic.kr/p/GAwCS7&quot;
-
+        
         title=&quot;Kevin Ashworth 0838&quot;
       &gt;
         &lt;img src=
-
+          
             &quot;https://farm8.staticflickr.com/7421/26645008954_70c2a73bdb_z.jpg&quot;
-
+          
           alt=&quot;0838&quot;&gt;
       &lt;/a&gt;
-
-
-
+    
+  
+  
     &lt;figcaption&gt;New headshots from a fun shoot with &lt;a href=&quot;http://www.troysphotos.com&quot;&gt;Troy Blendell&lt;/a&gt;.
 &lt;/figcaption&gt;
-
+  
 &lt;/figure&gt;
 
 
@@ -558,7 +596,7 @@ Try them out by dragging the links to your bookmarks bar, then clicking on them 
                 /acting/beardness/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;Julie Zahn, Aloma Wright, Kerry Washington, Tom Verica, Larry Trilling, John Terlesky, Alisa Taylor, Darby Stanchfield, Patrick Robert Smith, Brian Slaten, Brennan Shaw, Erica Shaffer, Phyllis Schuringa, Richard Riehle, Bridget Regan, Christopher Misiano, Jeff Marlow, Norm Macdonald, William Lu, Allison Liddi‑Brown, Young Jean Lee, Claire Koonce, Asante Jones, Ulf Johansson, Lisa Hamil, Shannon Hagenbuch, Yetta Gottesman, Tony Goldwyn, Meg Fister, Danielle Eskinazi, Peter Dubois, Christopher Dihn, Ed Deraney, Seve Canales, Cassie Brennan, Frank Boyd, Mell Bowser, Jodie Bowman, Bill Blair, Stephen Belber, Hayley Atwell, Amrapali Ambegaokar&lt;/p&gt;
@@ -571,7 +609,7 @@ Try them out by dragging the links to your bookmarks bar, then clicking on them 
                 /acting/updates/in-2015-i-got-to-work/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/dv3qcy9ay/image/upload/v1463425865/2015/prod_SWM/SWMTitle.png&quot; alt=&quot;Straight White Men&quot; class=&quot;alignleft&quot; onload=&quot;this.width*=0.5;this.onload=null;&quot; /&gt;A short, exciting update: I’ve been understudying &lt;em&gt;Straight White Men&lt;/em&gt; at the Kirk Douglas Theatre in Culver City, and I’ve just learned that I’m going on for tonight’s performance (Tuesday, Dec 15 at 8pm).&lt;/p&gt;
@@ -590,15 +628,15 @@ Try them out by dragging the links to your bookmarks bar, then clicking on them 
                 /acting/straight-white-men/
             </guid>
         </item>
-
+        
         <item>
             <description>
-                &lt;!--
+                &lt;!-- 
 
 
 
 &lt;figure&gt;
-
+  
 &lt;a href=&quot;https://flic.kr/s/aHskn4VSon&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5644/22104280011_59738f9240_z.jpg&quot; alt=&quot;Best in the business and also the weirdest&quot; /&gt;&lt;/a&gt;
 
   &lt;figcaption&gt;
@@ -607,21 +645,21 @@ Spent the weekend doing the work of my union as a delegate to the 2015 SAG-AFTRA
 &lt;/figure&gt;
  --&gt;
 &lt;!-- &lt;figure class=&quot;&quot;&gt;
-
+  
     &lt;a href=&quot;https://flic.kr/s/aHskn4VSon&quot;&gt;
-
+  
       &lt;img src=
-
+        
           &quot;https://farm6.staticflickr.com/5644/22104280011_59738f9240_z.jpg&quot;
-
+        
         alt=&quot;Best in the business and also the weirdest&quot;&gt;
-
+  
     &lt;/a&gt;
-
-
+  
+  
     &lt;figcaption&gt;Spent the weekend doing the work of my union as a delegate to the 2015 SAG-AFTRA National Convention. An honor to serve. Many emotional moments. The work we did is private, or will be shared on the union web site, but the Convention was also a great social occasion!
 &lt;/figcaption&gt;
-
+  
 &lt;/figure&gt;
  --&gt;
 &lt;p&gt;Spent the weekend doing the work of my union as a delegate to the 2015 SAG-AFTRA National Convention. An honor to serve. Many emotional moments. The work we did is private, or will be shared on the union web site, but the Convention was also a great social occasion!&lt;/p&gt;
@@ -634,7 +672,7 @@ Spent the weekend doing the work of my union as a delegate to the 2015 SAG-AFTRA
                 /blog/sag-aftra-national-convention/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;I asked a simple question, and I got a simple answer. &lt;a href=&quot;http://abc.go.com/shows/scandal/video/VDKA0_uqv8w95b&quot;&gt;Watch on abc.go.com&lt;/a&gt; — spoiler alert, it’s entitled, “Olivia Pope Admits to Being the President’s Mistress.”&lt;/p&gt;
@@ -645,7 +683,7 @@ Spent the weekend doing the work of my union as a delegate to the 2015 SAG-AFTRA
                 /acting/scandal-episode-502-yes/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;&lt;img class=&quot;alignleft&quot; src=&quot;/assets/images/noun_236742_cc.png&quot; alt=&quot;noun_236742_cc&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;I&#39;ve been involved in a handful of 99-seat productions, and I almost got involved in a few others.&lt;/p&gt;
@@ -662,7 +700,7 @@ Spent the weekend doing the work of my union as a delegate to the 2015 SAG-AFTRA
                 /blog/one-plan-to-rule-them-all/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;&lt;img class=&quot;alignleft&quot; src=&quot;/assets/images/noun_123297_cc.png&quot; alt=&quot;noun_123297_cc&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;AEA Council did not give the gift to membership companies that was proposed, the one that I wrote about below. But gave them another gift, which has many of the same pros and cons. In fact only one of my bullet points needs to be edited, in my opinion.&lt;/p&gt;
@@ -677,7 +715,7 @@ Spent the weekend doing the work of my union as a delegate to the 2015 SAG-AFTRA
                 /blog/lets-celebrate/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;If you get your news from Deadline or Bitter Lemons, I suggest visiting your &lt;a href=&quot;https://twitter.com/ActorsEquity?ref_src=twsrc%5Etfw&quot;&gt;@ActorsEquity&lt;/a&gt; member portal and read the decision &amp;amp; info.&lt;/p&gt;&amp;mdash; Matthew Kilgore (@MJKilgore) &lt;a href=&quot;https://twitter.com/MJKilgore/status/590760591796658177?ref_src=twsrc%5Etfw&quot;&gt;April 22, 2015&lt;/a&gt;&lt;/blockquote&gt;
@@ -697,7 +735,7 @@ Spent the weekend doing the work of my union as a delegate to the 2015 SAG-AFTRA
                 /blog/kilgore-sums-up/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;&lt;img class=&quot;alignleft&quot; src=&quot;/assets/images/noun_83600_cc.png&quot; alt=&quot;noun_83600_cc&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;Brief facts re AEA and 99 and what Council passed, compared to the initially proposed 3 prongs:&lt;/p&gt;
@@ -711,7 +749,7 @@ Spent the weekend doing the work of my union as a delegate to the 2015 SAG-AFTRA
                 /blog/brief-facts-on-the-3-original-prongs/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;&lt;img src=&quot;/assets/images/noun_74172_cc.png&quot; alt=&quot;gift box by Norbert Kucsera from the Noun Project&quot; height=&quot;150px&quot; width=&quot;150px&quot; class=&quot;alignleft&quot; /&gt;If you are an existing membership company in Los Angeles, this is an amazing opportunity. How could AEA give you a bigger gift than this? Accept it – and flourish!&lt;/p&gt;
@@ -795,7 +833,7 @@ You run each show for 24 performances. One show a year does really well, and you
                 /blog/this-is-a-gift-to-you/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;Let dreamers dream&lt;br /&gt;
@@ -818,7 +856,7 @@ And make our garden grow&lt;/p&gt;
                 /blog/make-our-garden-grow/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;The year 2015 has gotten off to a good start with multiple shoots in January. I have worked on &lt;a href=&quot;http://abc.go.com/shows/marvels-agent-carter&quot;&gt;&lt;em&gt;Marvel’s Agent Carter&lt;/em&gt;&lt;/a&gt; and more than one episode of &lt;a href=&quot;http://abc.go.com/shows/scandal&quot;&gt;&lt;em&gt;Scandal&lt;/em&gt;&lt;/a&gt;. Oh the spoilers I could tell you! But I won’t tell. I was truly moved reading the scripts, and these lovely stories will have to unfold before your very eyes soon enough on &lt;a href=&quot;http://abc.go.com/&quot;&gt;ABC&lt;/a&gt;. And, of course, I’ll tweet about them … soon enough.&lt;/p&gt;
@@ -829,7 +867,7 @@ And make our garden grow&lt;/p&gt;
                 /acting/news-january-2015/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;div itemprop=&quot;video&quot; itemscope=&quot;&quot; itemtype=&quot;http://schema.org/VideoObject&quot;&gt;&lt;iframe src=&quot;//player.theplatform.com/p/NnzsPC/widget/select/media/7xWJ9ttjtTkj?carouselID=202546&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; seamless=&quot;seamless&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
@@ -847,7 +885,7 @@ And make our garden grow&lt;/p&gt;
                 /acting/marry-me/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;Alyssa Weisberg,
@@ -913,7 +951,7 @@ Susan Paley Abramson&lt;/p&gt;
                 /acting/in-2014-i-got-to-audition-for-these-lovely-casting-people/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;1. Be open-minded and be willing to alter your beliefs with new evidence.&lt;br /&gt;
@@ -935,7 +973,7 @@ Susan Paley Abramson&lt;/p&gt;
                 /blog/ten-non-commandments/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;This is a delicious substitute for mashed potatoes.&lt;/p&gt;
@@ -958,7 +996,7 @@ The pur&amp;eacute;ed cauliflower may be placed in a baking dish, sprinkled with
                 /blog/cauliflower-potatoes/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;Recent bookings this fall:&lt;/p&gt;
@@ -977,16 +1015,16 @@ The pur&amp;eacute;ed cauliflower may be placed in a baking dish, sprinkled with
                 /acting/news-november-2014/
             </guid>
         </item>
-
+        
         <item>
             <description>
-
+                
 &lt;p&gt;We learned tonight that &lt;em&gt;Breath and Imagination&lt;/em&gt; has been &lt;a href=&quot;http://lastagealliance.com/ovation-awards-nominees-announced/&quot;&gt;nominated&lt;/a&gt; for the 2014 Ovation Awards in the category of &lt;em&gt;Best Play (Large Theatre)&lt;/em&gt;. And Karan has an individual nomination, too!&lt;/p&gt;
 
 &lt;p&gt;Looking forward to the award ceremony on Sunday, November 2, 2014.&lt;/p&gt;
 
 &lt;figure&gt;
-
+  
 &lt;a href=&quot;https://flic.kr/p/ZbwCsE&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4457/37531476746_33df0d94c8_o.jpg&quot; alt=&quot;Breath and Imagination: Nomination&quot; /&gt;&lt;/a&gt;
 
   &lt;figcaption&gt;
@@ -1000,7 +1038,7 @@ The pur&amp;eacute;ed cauliflower may be placed in a baking dish, sprinkled with
                 /acting/breath-and-imagination-nomination/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;Actors: If you&amp;rsquo;re new to pursuing commercials in Los Angeles, you can turn to many paid online and print sources to learn who casts commercials in L.A. and where they work. The thing is, these lists aren&amp;rsquo;t visual, and they contain long lists, while the reality is that the few, busiest commercial casting directors do most of the work.&lt;/p&gt;
@@ -1013,7 +1051,7 @@ The pur&amp;eacute;ed cauliflower may be placed in a baking dish, sprinkled with
                 /acting/map-of-commercial-cds/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;My show at the &lt;a href=&quot;http://www.colonytheatre.org/upcomingshows.html&quot;&gt;Colony Theatre&lt;/a&gt; in Burbank, &lt;em&gt;Breath and Imagination&lt;/em&gt;, proved to be very special, with an electric response from our audiences, unlike anything else I’ve ever been a part of.&lt;/p&gt;
@@ -1038,7 +1076,7 @@ The pur&amp;eacute;ed cauliflower may be placed in a baking dish, sprinkled with
                 /acting/breath-and-imagination-reviews/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;What the Tea Party believes in:&lt;/p&gt;
@@ -1065,7 +1103,7 @@ The pur&amp;eacute;ed cauliflower may be placed in a baking dish, sprinkled with
                 /blog/the-american-taliban/
             </guid>
         </item>
-
+        
         <item>
             <description>
                 &lt;p&gt;They like us. They really like us!&lt;/p&gt;
@@ -1088,6 +1126,6 @@ The pur&amp;eacute;ed cauliflower may be placed in a baking dish, sprinkled with
                 /acting/chapter-two-reviews/
             </guid>
         </item>
-
+        
     </channel>
 </rss>
