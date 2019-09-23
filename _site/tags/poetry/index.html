@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.16.6 by Michael Rose
   Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
@@ -12,6 +12,8 @@
 <!-- begin _includes/seo.html --><title>Poetry - kevinashworth.com</title>
 <meta name="description" content="Website of Kevin Ashworth, actor in Los Angeles">
 
+
+  <meta name="author" content="Kevin Ashworth">
 
 
 <meta property="og:type" content="website">
@@ -36,6 +38,8 @@
   
 
   
+    <meta name="twitter:creator" content="@kevinashworth">
+  
 
 
 
@@ -53,19 +57,16 @@
 
 
 
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
       "@type": "Person",
       "name": "kevinashworth.com",
-      "url": null,
-      "sameAs": null
-    }
-  </script>
-
+      "url": "/"
+    
+  }
+</script>
 
 
 
@@ -122,6 +123,14 @@
   </head>
 
   <body class="layout--archive-taxonomy">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -134,7 +143,10 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <a class="site-title" href="/">kevinashworth.com</a>
+        <a class="site-title" href="/">
+          kevinashworth.com
+          
+        </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/about/" >About</a>
             </li><li class="masthead__menu-item">
@@ -201,12 +213,12 @@
     
       <div class="search-content">
         <div class="search-content__inner-wrap"><div class="search-searchbar"></div>
-    <div class="search-hits"></div></div>
+  <div class="search-hits"></div></div>
 
       </div>
     
 
-    <div class="page__footer">
+    <div id="footer" class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
 
@@ -237,7 +249,7 @@
 
     
   <script src="/assets/js/main.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 
 <!-- Including InstantSearch.js library and styling -->
@@ -299,7 +311,7 @@ search.start();
 
 
 
-  <script type="text/javascript">
+  <script>
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-635167-1']);
   
@@ -311,6 +323,7 @@ search.start();
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+
 
 
 
