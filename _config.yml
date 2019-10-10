@@ -112,7 +112,7 @@ analytics:
 author:
   name             : "Kevin Ashworth"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I remind you of Tim&nbsp;DeKay, Peter&nbsp;Krause, Dick&nbsp;Sargeant, or Bob&nbsp;Crane. <s>But beardier.</s>"
+  bio              : "I remind you of Tim&nbsp;DeKay, Peter&nbsp;Krause, Dick&nbsp;Sargeant, or Bob&nbsp;Crane, or that <em>Barry</em> guy."
   location         : "Los Angeles, Calif."
   email            :
   uri              :
