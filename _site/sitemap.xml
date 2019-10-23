@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/hidden/that-fi-core-actor/</loc>
+<lastmod>2019-09-30T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>/acting/chapter-two-reviews/</loc>
 <lastmod>2013-01-25T06:26:38-08:00</lastmod>
 </url>
@@ -190,7 +194,7 @@
 </url>
 <url>
 <loc>/recipes/index</loc>
-<lastmod>2019-10-08T08:53:37-07:00</lastmod>
+<lastmod>2019-10-23T08:25:16-07:00</lastmod>
 </url>
 <url>
 <loc>/recipes/nathans-pumpkin-soup</loc>
