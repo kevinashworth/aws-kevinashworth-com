@@ -4,7 +4,7 @@
 
 @charset "utf-8";
 
-$sans-serif         : -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+$sans-serif : -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
 
 $global-font-family : $sans-serif;
 $header-font-family : $sans-serif;
@@ -12,10 +12,9 @@ $header-font-family : $sans-serif;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-
 img.alignleft {
-  float:left;
-  margin:0 1em 1em 0;
+  float: left;
+  margin: 0 1em 1em 0;
 }
 
 figure {

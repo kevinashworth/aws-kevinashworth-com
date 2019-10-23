@@ -29,4 +29,4 @@ end
 
 # See https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 # and https://mmistakes.github.io/minimal-mistakes/docs/upgrading/
-gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.16.6"
+gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.17.1"
