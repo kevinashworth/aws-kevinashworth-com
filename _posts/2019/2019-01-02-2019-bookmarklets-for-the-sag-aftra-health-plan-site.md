@@ -23,7 +23,7 @@ Out of morbid curiosity or for legitimate tax purposes, I often want to see last
 <li><a href='javascript:void%20function()%7B$(%22input%22)%5B6%5D.value=%2201/01/2018%22,$(%22input%22)%5B7%5D.value=%2212/31/2018%22;$(%22%23earningsForm%5C%5C:findBtn%22).click();%7D();'>Health 2017</a><br />
 Same for the year before last year.</li>
 <li><a href='javascript:$(%27#earningsList_rppDD%20option[value="100"]%27).prop(%27selected%27,true);$(%27#earningsList_rppDD%20option[value="100"]%27).change();setTimeout(function(){$(%27table[role="grid"]%20thead%20tr%27).append(%27<th>Row</th>%27);$(%27table[role="grid"]%20tfoot%20tr%27).append(%27<td>Row</td>%27);$(%27table[role="grid"]%20tr.ui-widget-content%27).each(function(i,val){var%20row=%27<td>%27+(i+1).toString()+%27</td>%27;$(this).append(row);});},1000);'>Health Rows</a><br />
-This bookrmarklet adds a column with the row number at the end of the table. This functionality breaks once you change any other settings, so just refresh the web page if it gets wonky.</li>
+This bookmarklet adds a column with the row number at the end of the table. This functionality breaks once you change any other settings, so just refresh the web page if it gets wonky.</li>
 </ul>
 
 If you're using Safari on a desktop computer, simply install these underlined bookmarklets by dragging the links to your bookmarks bar, then clicking on them &mdash; but only after you are logged in to the new site and are looking at the [Earnings History page](https://my.sagaftraplans.org/health/benefit/earnings.jsf). For other browsers, you'll probably need to manually install them by creating a new bookmark and pasting in the raw Javascript code that you access by right-clicking the bookmarklet and copying its code.
