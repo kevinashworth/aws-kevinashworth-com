@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: 'Scandal episode 502, "Yes"'
 excerpt: "I asked a simple question, and I got a simple answer."
 date: 2015-10-01 14:26:38

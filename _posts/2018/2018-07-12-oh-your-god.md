@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: Oh Your God
 date: 2018-07-12 14:26:38
 categories:

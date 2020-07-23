@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: "Breath and Imagination: Nomination"
 excerpt: 'We learned tonight that Breath and Imagination has been nominated for the 2014 Ovation Awards in the category of Best Play (Large Theatre).'
 date: 2014-09-22 14:26:38

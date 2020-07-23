@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: 2020 Bookmarklets for the SAG-AFTRA Health Plan Site
 categories:
 - Blog

@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: SAG-AFTRA National Convention
 excerpt: "Spent the weekend doing the work of my union as a delegate to the 2015 SAG-AFTRA National Convention"
 date: 2015-10-04 14:26:38

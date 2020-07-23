@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: Plays read this fall
 date: '2017-11-30 22:22:47 -0700'
 categories:

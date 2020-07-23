@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: 'In 2014, I got to audition for these lovely casting people (in reverse alphabetical order):'
 date: '2014-12-31 18:17:46 -0800'
 date_gmt: '2014-12-31 18:17:46 -0800'

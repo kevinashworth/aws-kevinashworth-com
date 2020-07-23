@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: For the People
 excerpt: Wherein I play a judge who is kind of over it...
 date: 2019-05-16

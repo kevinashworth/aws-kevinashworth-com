@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: Straight White Men
 excerpt: "I’ve been understudying Straight White Men at the Kirk Douglas Theatre in Culver City, and I’ve just learned that I’m going on for tonight’s performance!"
 date: 2015-12-16 14:26:38

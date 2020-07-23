@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: Aim Higher
 date: 2018-09-20 11:26:00
 categories:

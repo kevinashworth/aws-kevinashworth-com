@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: "Nathan's Pumpkin Soup"
 date: 2010-12-26
 ---

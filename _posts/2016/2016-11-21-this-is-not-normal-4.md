@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: "&laquo;This is not normal.&raquo;"
 excerpt: The Orange-elect eats wheatgrass whole
 date: '2016-11-21 21:57:28 -0800'

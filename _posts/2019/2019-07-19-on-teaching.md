@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: "On Teaching"
 date: 2019-07-19
 categories:

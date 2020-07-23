@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: "On Notes in Actors Access"
 date: 2019-05-20
 categories:

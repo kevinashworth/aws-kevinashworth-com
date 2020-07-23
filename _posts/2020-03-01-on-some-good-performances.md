@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: On some good performances this 2019-2020 Awards Season
 excerpt: Renée, Brad, Laura, Daniel, Toni, Jamie Lee et al
 date: 2020-03-01

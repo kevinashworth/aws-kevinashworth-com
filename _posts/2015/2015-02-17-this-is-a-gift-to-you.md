@@ -1,7 +1,5 @@
 ---
 layout: single
-status: publish
-published: true
 title: THIS IS A GIFT TO YOU!
 date: '2015-02-17 02:07:21 -0800'
 date_gmt: '2015-02-17 02:07:21 -0800'
