@@ -278,4 +278,5 @@ algolia:
   search_only_api_key: 414f5f79c49089cf37111995f92018bb
   powered_by: true
   files_to_exclude:
-    _hidden/*
+    - hidden/**
+    - _hidden/**

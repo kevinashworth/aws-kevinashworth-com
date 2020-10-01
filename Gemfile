@@ -29,7 +29,10 @@ end
 
 # See https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 # and https://mmistakes.github.io/minimal-mistakes/docs/upgrading/
-gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.19.1"
+gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.20.2"
 
 # See https://stackoverflow.com/questions/59558141/jekyll-minimal-mistakes-theme-throwing-uninitialized-constant-faradayerrorc
 gem 'faraday', '0.17.3'
+
+# See https://stackoverflow.com/questions/63335953/jekyll-error-building-page-related-to-kramdown-parser
+gem "kramdown-parser-gfm"
