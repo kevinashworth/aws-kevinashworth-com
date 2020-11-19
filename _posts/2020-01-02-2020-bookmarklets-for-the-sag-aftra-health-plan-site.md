@@ -11,6 +11,9 @@ tags:
 - Union
 - Healthcare
 ---
+> **Update** November 2020:\
+> Most of these bookmarklets are no longer needed, because the Health Plan's site now has the same functionality "built-in". Did I inspire them to do so? I'm not saying I did, I'm not saying I didn't.
+
 Sharing once again [updated](/blog/2019-bookmarklets-for-the-sag-aftra-health-plan-site/) bookmarklets for the [SAG-AFTRA Health Plan Benefits Manager](https://my.sagaftraplans.org/health/):
 
 <ul>
