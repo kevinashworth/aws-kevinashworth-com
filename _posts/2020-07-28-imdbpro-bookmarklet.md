@@ -23,7 +23,7 @@ _Wondering what the heck a bookmarklet is? [Click here](https://en.wikipedia.org
 
 <script type="text/javascript" charset="utf-8">
 const bookmarklet_initialize = () => {
-  const RAW_CODE = 'https://raw.githubusercontent.com/kevinashworth/imdb-pro-bookmarklet/master/src/bookmarklet'
+  const RAW_CODE = 'https://raw.githubusercontent.com/kevinashworth/imdb-pro-bookmarklet/main/src/bookmarklet'
   fetch(RAW_CODE)
     .then((response) => {
       if (!response.ok) {
