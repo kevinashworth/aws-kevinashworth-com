@@ -120,7 +120,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "kevinashworth"
   foursquare       :
   github           : "kevinashworth"
   gitlab           :
@@ -131,7 +131,7 @@ author:
   linkedin         : "kevinkevinashworth"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "7082724/kevin-ashworth"
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          : "kevinashworth"
@@ -139,7 +139,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/channel/UCbgDEIEjifgVvvRXjvkHqQw?"
+  youtube          : "kevinashworth"
 
 
 # Reading Files
