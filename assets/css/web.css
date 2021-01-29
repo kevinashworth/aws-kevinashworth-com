@@ -19,6 +19,14 @@ p, td {
 table.resume tr {
 	vertical-align: top;
 }
+table.resume td:nth-child(1) .head {
+	padding-top: 1em;
+}
+table.resume td:nth-child(1) .contact-info p {
+  margin: 0;
+  padding: 0;
+	font-size: small;
+}
 table.resume td {
 	padding: 0px;
 	padding-right: 1em;
