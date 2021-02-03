@@ -108,3 +108,16 @@ table.resume td ul {
 #container {
   max-width: 40em;
 }
+
+.skills-section p {
+  border-top: 1px solid #ccc;
+  font-size: x-small;
+  padding-bottom: 0.5em;
+  padding-right: 0;
+  text-transform: uppercase;
+}
+
+.skills-section ul.skills-list {
+  padding-left: 0;
+  list-style: none;
+}

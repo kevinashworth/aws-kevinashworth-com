@@ -5,6 +5,8 @@ permalink: /web/
 ---
 <link rel="stylesheet" href="/assets/css/web.css" type="text/css">
 <link rel="stylesheet" href="/assets/css/web-print.css" type="text/css" media="print">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 <table class="resume">
   <tr>
@@ -20,7 +22,7 @@ permalink: /web/
           <a href="https://github.com/kevinashworth">GitHub</a>,
           <a href="https://www.linkedin.com/in/kevinkevinashworth/">LinkedIn</a>
         </p>
-        </div>
+      </div>
     </td>
   </tr>
 
@@ -78,13 +80,62 @@ permalink: /web/
 
   <tr>
     <td>
-      <p><span class="smallcaps">Programming</span><br />
-        ReactJS, HTML, JavaScript, CSS, NodeJS;
-        MeteorJS, VulcanJS, git, GitHub, Cypress, Material-UI, react-bootstrap;
-        Jekyll, AWS, PHP;
-        grep, jQuery.</p>
-      <p><span class="smallcaps">Software</span><br />
-        VS Code, Atom; WordPress, Squarespace, Textpattern; LimeSurvey; macOS, Windows, Linux.</p>
+      <div class="d-flex flex-wrap justify-content-start skills-section">
+        <div class="mr-4 text-nowrap">
+          <p>Languages</p>
+          <ul class="skills-list">
+            <li>JavaScript <span class="small">(10 years)</span></li>
+            <li>CSS <span class="small">(10 years)</span></li>
+            <li>HTML <span class="small">(10 years)</span></li>
+          </ul>
+        </div>
+        <div class="mr-4 text-nowrap">
+          <p>Frameworks</p>
+          <ul class="skills-list">
+            <li>React <span class="small">(2 years)</span></li>
+            <li>React Redux <span class="small">(1 year)</span></li>
+            <li>NodeJS <span class="small">(3 years)</span></li>
+          </ul>
+        </div>
+        <div class="mr-4 text-nowrap">
+          <p>Libraries</p>
+          <ul class="skills-list">
+            <li>react-bootstrap <span class="small">(3 years)</span></li>
+            <li>Material-UI <span class="small">(1 year)</span></li>
+            <li>Cypress <span class="small">(1 year)</span></li>
+          </ul>
+        </div>
+        <div class="mr-4 text-nowrap">
+          <p>Tools</p>
+          <ul class="skills-list">
+            <li>VS Code</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+        <div class="mr-4 text-nowrap">
+          <p>Platforms</p>
+          <ul class="skills-list">
+            <li>macOS</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+        <div class="mr-4 text-nowrap">
+          <p>Storage</p>
+          <ul class="skills-list">
+            <li>MongoDB</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+        <div class="mr-4 text-nowrap">
+          <p>CMS</p>
+          <ul class="skills-list">
+            <li>WordPress <span class="small">(10 years)</span></li>
+            <li>Squarespace <span class="small">(2 years)</span></li>
+            <li>Textpattern <span class="small">(5 years)</span></li>
+          </ul>
+        </div>
+      </div>
+
     </td>
   </tr>
 
@@ -93,25 +144,6 @@ permalink: /web/
       Freelance Highlights
     </td>
   </tr>
-
-  <!-- <tr>
-<td><b>Handcart Ensemble, New York NY</b></td>
-<!- <td class="right"><b>2000-2006</b></td> ->
-</tr>
-
-<tr>
-<td>
-<i>Managing Director</i>
-<p>
-Responsible for growth of non-profit theater group.
-</p>
-<ul>
-<li>Organized ensemble&#8217;s first board of directors.</li>
-<li>Doubled yearly funding.</li>
-<li>Increased attendance by an average of 20%.</li>
-</ul>
-</td>
-</tr> -->
 
   <tr>
     <td><b>UnionWorking, Los Angeles CA</b></td>
@@ -281,35 +313,44 @@ Responsible for growth of non-profit theater group.
     </td>
   </tr>
 
-  <!-- <tr>
+  <tr>
     <td class="heading">
       Side Projects
     </td>
-    </tr>
+  </tr>
 
+  <tr>
+    <td><b>Civic Tech Index</b></td>
+  </tr>
+  <tr>
+    <td>
+      <p>OSS Project from Hack For LA</p>
+      <ul>
+        <li>Brought cohesion to team’s use of Material-UI</li>
+        <li>Wrote Cypress test coverage</li>
+        <li>Expanded documentation</li>
+        <li>Submitted average of 1 PR per day</li>
+      </ul>
+    </td>
+  </tr>
 
-    <tr>
-      <td><b>Handcart Ensemble, New York NY</b></td>
-      <!-- <td class="right"><b>2000-2006</b></td>
-    </tr>
+  <tr>
+    <td><b>Octave</b></td>
+  </tr>
+  <tr>
+    <td>
+      <p>React+GraphQL Single-Page App</p>
+      <ul>
+        <li>Built on Vulcan, which is built on Meteor</li>
+        <li>Total of 71 custom React components</li>
+        <li>Uses Redux, Apollo, Twilio, and many libraries</li>
+        <li>MongoDB with 10 collections, with server-side data denormalization</li>
+      </ul>
+    </td>
+  </tr>
 
-    <tr>
-      <td>
-        <i>Managing Director</i>
-        <p>
-          Responsible for growth of non-profit theater group.
-        </p>
-        <ul>
-          <li>Organized ensemble&#8217;s first board of directors.</li>
-          <li>Doubled yearly funding.</li>
-          <li>Increased attendance by an average of 20%.</li>
-        </ul>
-      </td>
-    </tr> -->
-
-
-    <tr>
-      <td class="heading">
+  <tr>
+    <td class="heading">
       Additional Skills, Experiences &amp; Interests
     </td>
   </tr>
