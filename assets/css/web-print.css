@@ -1,24 +1,28 @@
 .noprint, #centerfoot, #head {
-	display: none;
+  display: none;
 }
 #center {
-	margin: auto;
+  margin: auto;
 }
 table.resume td, table.resume td .head {
-	padding-bottom: 0.2em;
+  padding-bottom: 0.2em;
 }
 table.resume td a, table.resume td p a {
-	color: #000;
-	text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 table.resume td.heading {
-	font-size: x-small;
-	letter-spacing: 0;
+  font-size: x-small;
+  letter-spacing: 0;
 }
 table.resume td {
-	page-break-inside: avoid;
+  page-break-inside: avoid;
 }
 
-table.resume td, table.resume td div, table.resume td p, table.resume td li, #centerfoot {
-	font-size: small;
+table.resume td, table.resume td div, table.resume td p, table.resume td li {
+  font-size: small;
+}
+
+table.resume td .skills-section p {
+  font-size: xx-small;
 }

@@ -43,7 +43,7 @@ table.resume td, table.resume td div, table.resume td p, table.resume td li, #ce
 }
 table.resume td ul {
   list-style: circle;
-  margin-top: 0;
+  margin-top: -1em;
 }
 table.resume td li {
   margin-bottom: 0;
@@ -104,15 +104,17 @@ table.personaltable td.right, table.personaltable td.right p {
   font-size: x-small;
 }
 
-table.resume td ul {
-  margin-top: -1em;
-}
 #container {
   max-width: 40em;
 }
 
+.skills-section {
+  margin-bottom: 0.5em !important;
+  margin-top: 0.5em !important;
+}
+
 .skills-section p {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #d8d8d8;
   font-size: x-small;
   padding-bottom: 0.5em;
   padding-right: 0;
@@ -120,6 +122,7 @@ table.resume td ul {
 }
 
 .skills-section ul.skills-list {
-  padding-left: 0;
   list-style: none;
+  margin-bottom: 0 !important;
+  padding-left: 0;
 }
