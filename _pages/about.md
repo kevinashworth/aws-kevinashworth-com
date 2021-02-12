@@ -6,7 +6,7 @@ permalink: /about/
 ---
 Hi! My name is Kevin Ashworth. I'm an actor and front-end web developer. I live in Los&nbsp;Angeles.
 
-You can learn more about me at a bunch of places, including <a href="https://about.me/kevinashworth">about.me</a>, <a href="https://github.com/kevinashworth">GitHub</a>, <a href="https://imdb.me/kevinashworth">IMDb</a>, and <a href="https://linkedin.com/in/kevinkevinashworth">LinkedIn</a>.
+You can learn more about me at a bunch of places, including <a href="https://about.me/kevinashworth">about.me</a>, <a href="https://github.com/kevinashworth">GitHub</a>, <a href="https://imdb.me/kevinashworth">IMDb</a>, and <a href="https://linkedin.com/in/iamkevinashworth">LinkedIn</a>.
 
 ### Email Updates
 
