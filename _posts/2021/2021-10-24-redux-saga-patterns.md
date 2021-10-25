@@ -1,38 +1,41 @@
 ---
 layout: single
-title: This collection of common Redux-saga patterns will make your life easier.
-date: "2017-08-24"
+title: This collection of redux-saga patterns will make your life easier
 categories:
 - Blog
 tags:
-- Programming
 - Development
+- JavaScript
+- Programming
+- Redux
+- redux-saga
 ---
 
-by Andrés Mijares
+[by Andrés Mijares](https://github.com/andresmijares)
+
+<small>
+[Original post [here](https://www.freecodecamp.org/news/redux-saga-common-patterns-48437892e11c/). I’m posting this just for my reference, modified mostly for legibility in the code blocks.]
+</small>
 
 *This is a 2-part series — check out the first part [here](https://medium.freecodecamp.org/async-operations-using-redux-saga-2ba02ae077b3).*
 
-I’ve been a redux-saga user for a year now, and I still remember when I was introduced to the library. I remember how amazed I was (that ‘Eureka’ moment!) when I solved a few problems in matter of hours.
+I’ve been a [redux-saga](https://github.com/redux-saga/redux-saga) user for a year now, and I still remember when I was introduced to the library. I remember how amazed I was (that ‘Eureka’ moment!) when I solved a few problems in matter of hours.
 
 It was so good that I needed to share all this awesomeness with other people — so I sat down and wrote a [post](https://medium.freecodecamp.org/async-operations-using-redux-saga-2ba02ae077b3) about it. From that day on, due to the [curse of knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge), I couldn’t imagine my life without it.
 
-It was so good that now I also use it as an orchestration layer to manage all the asynchronous operations at work at [Shiftgig](http://www.shiftgig.com). So yes, these lines of code help to support the daily operations of several million VC companies — a big part of our application architecture relies on it.
+It was so good that now I also use it as an orchestration layer to manage all the asynchronous operations at work at [Shiftgig](http://www.shiftgig.com). So these lines of code help to support the daily operations of several million VC companies — a big part of our application architecture relies on it.
 
 ### Enough with the emotive introduction — let’s see the patterns.
 
-This post assumes that you have a basic understanding of the library.
+This post assumes that you have a basic understanding of the `redux-saga` library.
 
 After a year of working with the library and solving problems, we have identified a few patterns that we have repeated over and over. Let’s see them one by one with a possible use case for each.
 
 Disclaimer: I used the names I know for these. But if you happen to know them by some sort of official names, please comment below.
 
-### Take and Fork
+## Take and Fork
 
-By definition, the most common on my list. Do you remember the old way when you used to put a listener and watchers everywhere on your Angular 1 application? Well, I kind of do….
-
-This pattern is mostly used to trigger a process after an action is dispatched — yeah! Like a listener:
-
+The most common on my list. This pattern is mostly used to trigger a process after an action is dispatched. Like a listener:
 {% highlight javascript %}
 /* this is the saga you are going to register */
 export function* aListenerOnlySaga() {
@@ -45,9 +48,7 @@ function* someOtherSagaProcess() {
 }
 {% endhighlight %}
 
-#### The use case
-
-There are many, but let’s keep it real. In our application, we need to support different branches/states that are required to display information and take action based on the current selection.
+**The use case.** There are many, but let’s keep it real. In our application, we need to support different branches/states that are required to display information and take action based on the current selection.
 
 If I’m user Martha, I need to be able to select a branch from a dropdown and query the information related to it.
 
@@ -58,18 +59,18 @@ class CompanyDropDown extends React.Component {
     company: null,
     branches: [],
   }
-  componentDidUpdate ({company, branches}) {
-    this.setState(({company}) => ({company, branches}))
+  componentDidUpdate({ company, branches }) {
+    this.setState(({ company }) => ({ company, branches }))
   }
-  onChangeCompany (company) {
+  onChangeCompany(company) {
     this.props.dispatch('company_change', company)
   }
-  render () {
+  render() {
     /* omitted for convenience */
   }
 }
 
-const mapStateToProps = ({company, branches}) => ({company, branches})
+const mapStateToProps = ({ company, branches }) => ({ company, branches })
 
 export connect(mapStateToProps)(CompanyDropDown)
 {% endhighlight %}
@@ -98,13 +99,13 @@ Now our UI is separate from out business logic, and we are happy. We will add mo
 
 The main benefit of this is that you can create a process catalog (more about this later) that isolates that specific functionality and exposes it to your team at your discretion.
 
-But there is a little problem with that pattern. If you noticed, **this will work only once.** After you exec the process, it won’t work anymore. That’s where the next pattern comes in handy.
+But there is a little problem with that pattern. If you noticed, **this will work only once.** After you execute the process, it won’t work anymore. That’s where the next pattern comes in handy.
 
-### Watch and Fork
+## Watch and Fork
 
-One of the problems with the Take and Fork pattern is that we limit the executions to only one. That previous use case probably doesn’t match the use for the pattern. I made it on purpose, so that this way we can keep enhancing and powering it is as much as we need, step by step. A better fit-for-purpose case would probably be a login or logout process, where you know that you only need them once.
+One of the problems with the Take and Fork pattern is that we limit the number of executions to only one. That previous use case probably doesn’t match the use for the pattern. I made it on purpose, so that this way we can keep enhancing and powering it is as much as we need, step by step. A better fit-for-purpose case would probably be a login or logout process, where you know that you only need them once.
 
-Moving on, we need to make sure that our friend Martha can change between companies as much as she needs to, not only once. We can solve this with a small tweak. Let’s see the Watch and Fork pattern in place, and let’s bring our listener saga to the game again.
+We need to make sure that Martha can change between companies as much as she needs to, not only once. We can solve this with a small tweak. Let’s see the Watch and Fork pattern in place, and let’s bring our listener saga to the game again.
 
 
 {% highlight javascript %}
@@ -118,12 +119,12 @@ export function* listenForChangeCompany() {
 {% endhighlight %}
 
 
-Pretty neat, eh? If you are not used to function generators, having a while/true around probably looks weird. But it fits the purpose. Still, there is a even better way to do it: we can iterate more over this using another library helper shortcut.
+Pretty neat, eh? If you are not used to function generators, having a `while (true)` around probably looks weird. But it fits the purpose. Still, there is a even better way to do it: we can iterate more over this using another library helper shortcut.
 
 
 {% highlight javascript %}
 /* Where you register the sagas */
-function* rootSagas () {
+function* rootSagas() {
   yield [takeEvery('company_change', changeCompanySaga)]
 }
 {% endhighlight %}
@@ -131,11 +132,11 @@ function* rootSagas () {
 
 Behind the scenes, the company argument is passed to the `changeCompanySaga` saga. I really like this pattern, especially if you need to handle a big application with hundreds of processes. You just know that it responds to a single dispatched action.
 
-### Put and Take
+## Put and Take
 
-This pattern is very useful. As I mentioned before, you organize your process operations into different sagas. You then create a services catalog that you can share across all the teams/people/units you name. This means that each of your services has a finite functionally that will change your state. Sometimes that is enough, while other times you want to extend the capability of a single service. Let’s see a use case.
+This pattern is very useful. As I mentioned before, you organize your process operations into different sagas. You then create a services catalog that you can share across all the teams/people/units. This means that each of your services has a finite functionality that will change your state. Sometimes that is enough, while other times you want to extend the capability of a single service. Let’s see a use case.
 
-Imagine that one of the teams in your company tells you that they’ve created this very complex service that you can re-use. It’s called...`fetchDataOverFiveDifferentLocations` . This is a lot of imperative stuff, but at the end you will have all the information you need parsed and ready to be consumed. Awesome!
+Imagine that one of the teams in your company tells you that they’ve created this very complex service that you can re-use. It’s called `fetchDataOverFiveDifferentLocations`. This is a lot of imperative stuff, but at the end you will have all the information you need parsed and ready to be consumed. Awesome!
 
 You and your team agreed on some naming conventions that go as follows: {service\_name}\_{microservice}\_{status}. So let’s say:
 
@@ -150,9 +151,9 @@ This means our services library exposes a saga which looks like this:
 {% highlight javascript %}
 export function* fetchDataOverFiveDifferentLocations() {
   while (true) {
-    yield put({type: 'fetchSomeData_events_start'})
+    yield put({ type: 'fetchSomeData_events_start' })
     /*         computing stuff...       */
-    yield put({type: 'fetchSomeData_events_success'})
+    yield put({ type: 'fetchSomeData_events_success' })
   }
 }
 {% endhighlight %}
@@ -162,11 +163,11 @@ On your application, you can consume the service like this:
 
 
 {% highlight javascript %}
-function* rootSagas () {
-      yield [
-      takeEvery('fetchSomeData_events', fetchDataOverFiveDifferentLocations)
-      ]
-    }
+function* rootSagas() {
+  yield [
+    takeEvery('fetchSomeData_events', fetchDataOverFiveDifferentLocations)
+  ]
+}
 {% endhighlight %}
 
 
@@ -175,9 +176,9 @@ What if we need to extend that functionality?
 
 {% highlight javascript %}
 /* We create a manager saga */
-function* fetchDataManager () {
+function* fetchDataManager() {
   /* we need to start the service/saga */
-  yield put({type: 'fetchSomeData_events'})
+  yield put({ type: 'fetchSomeData_events' })
   /* we need to wait/listen when it ends...*/
   yield take('fetchSomeData_events_success')
   /*
@@ -189,16 +190,16 @@ function* fetchDataManager () {
 }
 
 /* We create an orchestrator saga */
-function* orchestratorSaga () {
+function* orchestratorSaga() {
   while (true) {
     yield fork(fetchDataManager)
   }
 }
 
 /* your root saga then looks like this */
-function* rootSagas () {
+function* rootSagas() {
   yield [
-  takeEvery('other_action_trigger', orchestratorSaga),
+    takeEvery('other_action_trigger', orchestratorSaga),
   ]
 }
 {% endhighlight %}
@@ -206,7 +207,7 @@ function* rootSagas () {
 
 Probably some of you are thinking… what about the error handling? Hold your thoughts, I will come back to that later.
 
-### For/of Collection
+## For/of Collection
 
 This one is picky, because most of the time we do not solve the problem this way by default. But when you need it, you need it.
 
@@ -221,13 +222,13 @@ function* someSagaName() {
   const events = yield call(fetchEvents)
   events.map((event) => {
     /* this is syntactically invalid */
-    yield put({type: 'some_action', payload: event})
+    yield put({ type: 'some_action', payload: event })
   })
 }
 {% endhighlight %}
 
 
-This is when the for/of loop comes to the rescue. Let’s solve this problem before we start breaking our architectural services rules ??.
+This is when the `for...of` loop comes to the rescue. Let’s solve this problem before we start breaking our architectural services rules.
 
 
 {% highlight javascript %}
@@ -235,19 +236,17 @@ function* someSagaName() {
   /* code omitted for convenience */
   const events = yield call(fetchEvents)
   for (event of events) {
-    yield put({type: 'some_action', payload: event})
-    /* ?? */
+    yield put({ type: 'some_action', payload: event })
     /* or maybe something like: */
     yield fork(someOtherSagaOrService, event)
-    /* ?? */
   }
-    }
+}
 {% endhighlight %}
 
 
-How the for/of loop works is beyond the scope of this post, but you can find out more [here](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of). Also, it’s possible to do it using a regular for loop and iterate over the array — it’s your call.
+How the `for...of` loop works is beyond the scope of this post, but you can find out more [here](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of). Also, it’s possible to do it using a regular `for` loop and iterate over the array — it’s your call.
 
-### Error Handling
+## Error Handling
 
 Oh yes! Javascript is not Elixir, so we still need to do defensive programming and protect against errors. Based on this catalog structure, how do we ensure that we don’t swallow the errors? Or how can each error be managed correctly? A 500 is not the same as a 401, so we still need a flexible way to communicate to the user in a friendly way that something went wrong.
 
@@ -264,16 +263,16 @@ Let’s go back to our event manager service:
 
 
 {% highlight javascript %}
-/* Case 1, service that manage the error */
+/* Case 1, service that manages the error */
 export function* fetchDataOverFiveDifferentLocations() {
   try {
     while (true) {
-      yield put({type: 'fetchSomeData_events_start'})
+      yield put({ type: 'fetchSomeData_events_start' })
       /*           computing stuff...         */
-      yield put({type: 'fetchSomeData_events_success'})
+      yield put({ type: 'fetchSomeData_events_success' })
     }
   } catch (error) {
-    yield put({type: 'fetchSomeData_events_error', error})
+    yield put({ type: 'fetchSomeData_events_error', error })
   }
 }
 {% endhighlight %}
@@ -283,10 +282,10 @@ In this case, we are coupled to the service error, so we need to create a servic
 
 
 {% highlight javascript %}
-function* rootSagas () {
+function* rootSagas() {
   yield [
-  takeEvery('fetchSomeData_events_error', yourErrorHandlerService),
-  /* ... */,
+    takeEvery('fetchSomeData_events_error', yourErrorHandlerService),
+    /* ... */,
   ]
 }
 {% endhighlight %}
@@ -299,15 +298,15 @@ The only con for this that I’ve found so far is how verbose it is to handle a 
 /* Case 2, manager takes care of the error */
 function* fetchDataOverFiveDifferentLocations() {
   while (true) {
-    yield put({type: 'fetchSomeData_events_start'})
+    yield put({ type: 'fetchSomeData_events_start' })
     /*           computing stuff...         */
-    yield put({type: 'fetchSomeData_events_success'})
+    yield put({ type: 'fetchSomeData_events_success' })
   }
 }
-function* fetchDataManager () {
+function* fetchDataManager() {
   try {
     yield put('fetchSomeData_events')
-    /*...*/
+    /* ... */
     yield take('fetchSomeData_success')
   } catch (error) {
     yield put('some_custom_error_action', error)
@@ -324,4 +323,3 @@ As you might see, this library comes in really handy when you need a solid way t
 
 Do you use any other patterns? I’m always happy to learn what others are doing out there and how we can learn from each other. Please let me know!
 
-Finally feel free to check my open source projects at the moment: [**React Calendar Multiday**](https://github.com/andresmijares/react-calendar-multiday)
