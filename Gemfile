@@ -29,7 +29,8 @@ end
 
 # See https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 # and https://mmistakes.github.io/minimal-mistakes/docs/upgrading/
-gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.24.0"
+# gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.24.0"
+gem "minimal-mistakes-jekyll"
 
 # See https://stackoverflow.com/questions/59558141/jekyll-minimal-mistakes-theme-throwing-uninitialized-constant-faradayerrorc
 gem 'faraday', '0.17.3'
