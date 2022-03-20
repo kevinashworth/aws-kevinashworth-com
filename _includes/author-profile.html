@@ -254,6 +254,14 @@
         </li>
       {% endif %}
 
+      {% if author.imdb %}
+        <li>
+          <a href="https://www.imdb.com/name/{{ author.imdb }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-imdb" aria-hidden="true"></i> IMDb
+          </a>
+        </li>
+      {% endif %}
+
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
