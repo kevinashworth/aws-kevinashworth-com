@@ -262,6 +262,15 @@
         </li>
       {% endif %}
 
+
+      {% if author.mastodon %}
+        <li>
+          <a rel="me" href="{{ author.mastodon }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i> Mastodon
+          </a>
+        </li>
+      {% endif %}
+
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
