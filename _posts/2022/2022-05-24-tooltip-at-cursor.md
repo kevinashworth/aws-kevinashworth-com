@@ -2,6 +2,7 @@
 layout: single
 title: How to show a Material-UI V4/V5 Tooltip at the cursor
 date: 2022-05-24 15:17:59
+og_image: /assets/images/2022-05-24-tooltip-screenshot.png
 categories:
 - Blog
 tags:
@@ -13,6 +14,8 @@ tags:
 - React
 ---
 Recently, I needed to place a tooltip at the tip of the cursor, and it took a little bit of trial and error to get it to work. Here is the code I used.
+
+![screenshot of tooltip following mouse](/assets/images/2022-05-24-tooltip-screenshot.png)
 
 ## Material-UI V4 Tooltip
 
@@ -31,7 +34,7 @@ const computeStyleFn = (data) => {
 };
 {% endhighlight %}
 
-See a React 17 demo repo in action at [CodeSandbox.io](https://codesandbox.io/s/github/kevinashworth/mui-v4-tooltip-demo?file=/src/Demo.js) or [on GitHub](https://github.com/kevinashworth/mui-v4-tooltip-demo).
+See a rudimentary React 17 demo repo in action at [CodeSandbox.io](https://codesandbox.io/s/github/kevinashworth/mui-v4-tooltip-demo?file=/src/Demo.js), or find the code [on GitHub](https://github.com/kevinashworth/mui-v4-tooltip-demo).
 
 ## Material UI V5 Tooltip
 
@@ -55,4 +58,4 @@ With [Material UI V5](https://mui.com/), the Popper.js library has been updated 
 {% endraw %}
 {% endhighlight %}
 
-See a React 18 demo repo in action at [CodeSandbox.io](https://codesandbox.io/s/github/kevinashworth/mui-v5-tooltip-demo?file=/src/Demo.js) or [on GitHub](https://github.com/kevinashworth/mui-v5-tooltip-demo).
+See a React 18 demo repo in action at [CodeSandbox.io](https://codesandbox.io/s/github/kevinashworth/mui-v5-tooltip-demo?file=/src/Demo.js), or check out the code [on GitHub](https://github.com/kevinashworth/mui-v5-tooltip-demo).
