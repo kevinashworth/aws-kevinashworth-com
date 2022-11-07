@@ -37,3 +37,6 @@ gem 'faraday', '0.17.3'
 
 # See https://stackoverflow.com/questions/63335953/jekyll-error-building-page-related-to-kramdown-parser
 gem "kramdown-parser-gfm"
+
+# See https://github.com/laurilehmijoki/s3_website/issues/335
+gem 's3_website', git: 'https://github.com/ivoanjo/s3_website.git'
